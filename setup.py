@@ -16,6 +16,7 @@ setup(
     maintainer_email='hello@littleweaverweb.com',
     packages=find_packages(),
     include_package_data=True,
+    zip_safe=False,
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
